@@ -9,5 +9,9 @@ nano profile
 
 
 proot-distro login ubuntu 
+
+
 mv /data/data/com.termux/files/home getgo.sh
+
+
 sh getgo.sh
