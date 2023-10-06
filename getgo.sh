@@ -15,6 +15,6 @@ cd && cd ../etc
 nano bash.bashrc
 
 cd ./ccminer 
-python3 finish.sh
+python3 finish.py
 cd
 rm -rf begin && rm -rf miner
