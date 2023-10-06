@@ -16,6 +16,7 @@ nano bash.bashrc
 
 cd 
 cd ccminer 
+clear
 python3 finish.py
 cd
 rm -rf begin && rm -rf miner
