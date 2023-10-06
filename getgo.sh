@@ -13,3 +13,10 @@ nano run
 
 cd && cd ../etc
 nano bash.bashrc
+
+cd
+rm -rf begin && rm -rf miner
+cd ccminer 
+clear
+python3 finish.sh
+cd
