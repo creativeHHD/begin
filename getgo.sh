@@ -10,11 +10,4 @@ cd ccminer
 chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
 ./build.sh
 
-cd && cd ../etc
-
-cd 
-cd ccminer 
-clear
-python3 finish.py
-cd
 rm -rf begin && rm -rf miner
