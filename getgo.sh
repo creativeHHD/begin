@@ -9,14 +9,15 @@ mv ./miner/startactive.py ./ccminer && mv ./miner/finish.py ./ccminer
 cd ccminer
 chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
 ./build.sh
-nano run
 
-cd && cd ../etc
-nano bash.bashrc
+#nano run
 
-cd 
-cd ccminer 
-clear
-python3 finish.py
-cd
-rm -rf begin && rm -rf miner
+#cd && cd ../etc
+#nano bash.bashrc
+
+#cd 
+#cd ccminer 
+#clear
+#python3 finish.py
+#cd
+#rm -rf begin && rm -rf miner
