@@ -5,7 +5,8 @@ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 pkg install proot-distro -y
 proot-distro install ubuntu
 pkg install nano
-cd /data/data/com.termux/files/usr/etc
 
+cd /data/data/com.termux/files/usr/etc
 nano profile
-echo "proot-distro login ubuntu" > ~/start-ubuntu.sh
+
+proot-distro login ubuntu && mv /data/data/com.termux/files/home ./start-ubuntu.sh
