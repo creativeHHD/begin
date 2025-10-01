@@ -9,4 +9,4 @@ cd /data/data/com.termux/files/usr/etc
 nano profile
 
 
-proot-distro login ubuntu && mv /data/data/com.termux/files/home ./start-ubuntu.sh
+echo "proot-distro login ubuntu" > ~/start-ubuntu.sh
