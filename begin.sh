@@ -6,8 +6,8 @@ pkg install proot-distro
 proot-distro install ubuntu
 pkg install nano
 
-#cd /data/data/com.termux/files/usr/etc
-#nano profile
+cd /data/data/com.termux/files/usr/etc
+nano profile
 
-#proot-distro login ubuntu && mv /data/data/com.termux/files/home ./start-ubuntu.sh
+proot-distro login ubuntu && mv /data/data/com.termux/files/home ./start-ubuntu.sh
 
